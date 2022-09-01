@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive HTML Email Template</title>
+	<style type="text/css">
+		body {
+			Margin: 0;
+			padding: 0;
+			background-color: #f6f9fc;
+      
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		img {
+			border: 0;
+		}
+    .wrapper {
+      width: 100%;
+      background-color: #f6f9fc;
+      table-layout: fixed; /* to make sure the table doesn't display outside parent*/
+      padding-bottom: 40px;
+    }
+    .outer {
+      max-width: 600px;
+      background-color: #fff;
+      box-sizing: border-box;
+    }
+    .main {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      border-spacing: 0;
+      font-family: sans-serif;
+      color: #4a4a4a;
+    }
+    .social {
+      padding-right: 10px;
+    }
+    .three-columns {
+      text-align: center;
+      padding-top: 40px; 
+      padding-bottom: 30px; 
+      font-size: 0;
+    }
+    .three-columns .column {
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .padding {
+      padding: 15px;
+    }
+    .content {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    a {
+      color: #7F57F1!important;
+      text-decoration: none;
+      font-size: 16px;
+    }
+		@media screen and (max-width: 600px) { 
+      img.third-img-last {
+        width: 200px!important;
+        max-width: 200px!important;
+      }
+      .padding {
+        padding-left: 0!important;
+        padding-right: 0!important;
+      }
+		}
+		@media screen and (max-width: 400px) {
+      img.third-img {
+        width: 200px!important;
+        max-width: 200px!important;
+      }
+		}
+	</style>
+</head>
+<body>
+
+  <center class="wrapper">
+    <div class="outer">
+
+      <table class="main" align="center">
+
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td style="background-color: #7F57F1; padding: 10px; text-align: center;">
+                  <a href="#" class="social"><img src="img/white-facebook.png" alt="" width="30px"></a>
+                  <a href="#" class="social"><img src="img/white-twitter.png" alt="" width="30px"></a>
+                  <a href="#" class="social"><img src="img/white-youtube.png" alt="" width="30px"></a>
+                  <a href="#" class="social"><img src="img/white-linkedin.png" alt="" width="30px"></a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td style="padding: 20px; text-align: center;">
+                  <a href="#"><img src="img/logoipsum.svg" width="180" alt="Logo"></a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a href="#"><img src="https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk" alt="" width="600" style="max-width: 100%"></a></td>
+        </tr>
+
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="three-columns">
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img src="https://picsum.photos/id/369/4692/3128" alt="" class="third-img" width="150" height="150" style="max-width: 150px"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 10px;">
+                              <p style="font-weight: bold; font-size: 17px; text-transform: uppercase; margin-top: 10px;">Cantabria</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <a href="#" style="font-weight: bold; font-size: 12px; text-transform: uppercase;">Learn More...</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img src="https://picsum.photos/id/376/5450/3623" alt="" class="third-img" width="150" height="150" style="max-width: 150px"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 10px;">
+                              <p style="font-weight: bold; font-size: 17px; text-transform: uppercase; margin-top: 10px;">New York</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <a href="#" style="font-weight: bold; font-size: 12px; text-transform: uppercase;">Learn More...</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img src="https://picsum.photos/id/234/2048/2048" alt="" class="third-img-last" width="150" height="150" style="max-width: 150px"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 10px;">
+                              <p style="font-weight: bold; font-size: 17px; text-transform: uppercase; margin-top: 10px;">Paris</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <a href="#" style="font-weight: bold; font-size: 12px; text-transform: uppercase;">Learn More...</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="background-color:#7F57F1;" height="10"></td>
+        </tr>
+
+        <tr>
+          <td style="background-color:#fbfafc;">
+            <table width="100%">
+              <tr>
+                <td style="padding:20px;text-align:center;padding-bottom:10px;">
+                  <a href="#"><img src="img/logoipsum.svg" alt="" width="160"></a>
+                  <p style="font-size: 16px; margin-top: 18px; margin-bottom: 18px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p><a href="mailto:email@email.com">email@email.com</a></p>
+                  <p><a href="tel:8880999888">888-0999-888</a></p>
+                  <p style="font-size: 10px; margin-top: 18px; margin-bottom: 10px;"><a href="#">Unsubscribe</a></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="background-color:#7F57F1;border-radius: 0 0 15px 15px;" height="20"></td>
+        </tr>
+
+      </table>
+
+    </div>
+  </center>
+
+
+</body>
+</html>
+
+
+
+
+<!-- Begin Social Share **you can remove this to center the template :) -->
+<style>
+	.btn:hover {
+		color: white;
+		opacity: .8;
+		transform: scale(1.02);
+	}
+</style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+	$(this).delay(2000).queue(function() { /*-- CHANGE DELAY TIME --*/
+		$("#socialModal").modal('show');
+	});
+</script>
